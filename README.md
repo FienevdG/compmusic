@@ -1,0 +1,2 @@
+# compmusic
+computational musicology project
