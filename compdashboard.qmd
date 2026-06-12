@@ -4,7 +4,7 @@ author: "Fiene"
 format:
   dashboard:
     orientation: columns
-      theme: lumen
+   
 
 editor: visual
 ---
@@ -12,6 +12,8 @@ editor: visual
 # hoofdstuk 1
 test test 
 
+## kopje 1
+test test test 
 
 
 
