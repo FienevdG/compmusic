@@ -9,11 +9,28 @@ format:
 editor: visual
 ---
 
-# hoofdstuk 1
-test test 
+# voorpagina
 
-## kopje 1
-test test test 
+hier uitleggen wat ik ga onderzoeken
 
+## even kijken wat dit doet
 
+## dit is hetzelfde
 
+### wat is dan dit ook even checken
+
+### wowie even kijken hoor
+
+# Background
+
+# Chroma features
+
+# Loudness
+
+# Timbre
+
+# Temporal features
+
+# Clustering
+
+# Contribution
