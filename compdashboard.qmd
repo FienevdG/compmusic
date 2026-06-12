@@ -1,0 +1,17 @@
+---
+title: "dashboardCompMusic"
+author: "Fiene"
+format:
+  dashboard:
+    orientation: columns
+      theme: lumen
+
+editor: visual
+---
+
+# hoofdstuk 1
+test test 
+
+
+
+
