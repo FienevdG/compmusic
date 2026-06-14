@@ -1,9 +1,11 @@
 ---
-title: "dashboardCompMusic"
-author: "Fiene"
+title: "the differebce between British and American Punk Rock"
+author: ""
 format:
   dashboard:
     orientation: columns
+    theme: darkly
+    
    
 
 editor: visual
@@ -11,15 +13,17 @@ editor: visual
 
 # voorpagina
 
-hier uitleggen wat ik ga onderzoeken
+In this portofolio I'll present my research on the difference between British and American Punk music, mainly focussed on music made in the 70's. 
 
-## even kijken wat dit doet
+
+
+## dit maakt een nieuwe colom rechter helft
 nu hier kijken waar dit komt 
 
-## dit is hetzelfde
+## dit is hetzefde 
 en dit? 
 
-### wat is dan dit ook even checken
+### dit maakt een nieuwe colom rechterhelft rechter kant
 en dit dan? 
 
 ### wowie even kijken hoor
