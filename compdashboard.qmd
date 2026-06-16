@@ -16,7 +16,6 @@ editor: visual
 In this portofolio I'll present my research on the difference between British and American Punk music, mainly focussed on music made in the 70's. 
 
 
-
 ## dit maakt een nieuwe colom rechter helft
 nu hier kijken waar dit komt 
 
@@ -37,6 +36,13 @@ kijk dit
 # Loudness
 
 # Timbre
+
+##
+
+in this histogram 
+
+##
+![](images/energy2hist.jpg)
 
 # Temporal features
 
