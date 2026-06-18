@@ -72,27 +72,54 @@ Anarchy In the U.K.
 # Temporal features
 
 ## uitleg 
-in deze .. 
 
-## ACT afb
+TEMPORAL FEATURES
 
-Blitz ACT
-![](plots/BlitzACT.jpg)
-Anarchy ACT
-![](plots/AnarchyACT.jpg)
+On this page I'll be doing a temporal focussed analysis of 'Blitzkrieg Bop' and 'Anarchy In the U.K.'. To analyse the temporal aspects of these songs I used two types of visualisations; An autocorrelation tempogram (ACT) and a novelty curve.
 
+- ACT's show how strong a BPM at a certain time in a audio fragment. The X-axis shows the time and the Y-axis BPM. A brighter, yellow colour shows a higher presence of a BPM at a certain time.
+- A novelty curve shows us moments where music changes. Again, the X-axis shows the time, the Y-axis shows the novelty, so the amount of change from one moment to the next. 
+
+
+NOVELTY CURVE
+
+The novelty curve of Blitzkrieg Bop shows two main peaks at the beginning and end of the song, with two smaller peaks in between. This shows quite clearly defined sections in the song. The songs rythm changes at specific moments. 
+
+The novelty curve of 'Anarchy In the U.K.' looks very different from the 'Blitzkrieg Bop' one. 'Anarchy in the U.K.' has a lot of peaks, that are distributed throughout the entire song. The song's rhythm changes very consistently and doesn't show clear sections.
+
+ACT
+
+The 'Blitzkrieg Bop' tempogram shows a stable BPM. When there is a dominant BPM present it is consistent with the other moments we see a clear BPM. It is notable that in between these moments with dominant beats, we see quiet sections where the beat is not dominantly present.
+
+The 'Anarchy in the U.K.' tempogram shows long horizontal stripes almost all troughout the song.
+This shows that the beat is consistently present in the song, without major tempo changes. There are two times in the middle of the song where the beat becomes a bit stronger. 
+
+CONCLUSION 
+
+Combining the two visualizations shows us that, though both songs have a stable tempo, the tracks differ in their structure. In 'Anarchy in the U.K.' we see more frequent, but smaller changes. In 'Blitzkrieg Bop' we see fewer, but structural changes throughout the song. 
 
 
 ## novelty 
 
+Novelty curve 'Blitzkrieg Bop'
+![](plots/BlitzNovelty.jpg)
+
+Novelty curve 'Anarchy In the U.K.'
 ![](plots/AnarchyNovelty.jpg)
 
-![](plots/BlitzNovelty.jpg)
+
+## ACT afb
+
+ACT 'Blitzkrieg Bop'
+![](plots/BlitzACT.jpg)
+ACT 'Anarchy in the U.K.'
+![](plots/AnarchyACT.jpg)
+
 
 
 # Track level features 
 
-## 
+##
 
 On this page, we'll take a closer look at the track level features and how American and British punk differ in this respect. 
 To do this comparison I used the features energy, loudness, valence and speechiness.

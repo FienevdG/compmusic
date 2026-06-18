@@ -8,7 +8,7 @@
 
 <meta name="author" content="Computational Musicology">
 
-<title>quarto-inputc575b6892ae1ffac</title>
+<title>quarto-inputbcce7235625ec5e0</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -183,7 +183,20 @@ grid-auto-rows: minmax(0, 1fr);">
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
-<p>in deze ..</p>
+<p>TEMPORAL FEATURES</p>
+<p>On this page I’ll be doing a temporal focussed analysis of ‘Blitzkrieg Bop’ and ‘Anarchy In the U.K.’. To analyse the temporal aspects of these songs I used two types of visualisations; An autocorrelation tempogram (ACT) and a novelty curve.</p>
+<ul>
+<li>ACT’s show how strong a BPM at a certain time in a audio fragment. The X-axis shows the time and the Y-axis BPM. A brighter, yellow colour shows a higher presence of a BPM at a certain time.</li>
+<li>A novelty curve shows us moments where music changes. Again, the X-axis shows the time, the Y-axis shows the novelty, so the amount of change from one moment to the next.</li>
+</ul>
+<p>NOVELTY CURVE</p>
+<p>The novelty curve of Blitzkrieg Bop shows two main peaks at the beginning and end of the song, with two smaller peaks in between. This shows quite clearly defined sections in the song. The songs rythm changes at specific moments.</p>
+<p>The novelty curve of ‘Anarchy In the U.K.’ looks very different from the ‘Blitzkrieg Bop’ one. ‘Anarchy in the U.K.’ has a lot of peaks, that are distributed throughout the entire song. The song’s rhythm changes very consistently and doesn’t show clear sections.</p>
+ACT
+<p>The ‘Blitzkrieg Bop’ tempogram shows a stable BPM. When there is a dominant BPM present it is consistent with the other moments we see a clear BPM. It is notable that in between these moments with dominant beats, we see quiet sections where the beat is not dominantly present.</p>
+<p>The ‘Anarchy in the U.K.’ tempogram shows long horizontal stripes almost all troughout the song. This shows that the beat is consistently present in the song, without major tempo changes. There are two times in the middle of the song where the beat becomes a bit stronger.</p>
+CONCLUSION
+<p>Combining the two visualizations shows us that, though both songs have a stable tempo, the tracks differ in their structure. In ‘Anarchy in the U.K.’ we see more frequent, but smaller changes. In ‘Blitzkrieg Bop’ we see fewer, but structural changes throughout the song.</p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -194,7 +207,8 @@ grid-auto-rows: minmax(0, 1fr);">
 </div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
-<p>Blitz ACT <img src="plots/BlitzACT.jpg" class="img-fluid"> Anarchy ACT <img src="plots/AnarchyACT.jpg" class="img-fluid"></p>
+<p>Novelty curve ‘Blitzkrieg Bop’ <img src="plots/BlitzNovelty.jpg" class="img-fluid"></p>
+<p>Novelty curve ‘Anarchy In the U.K.’ <img src="plots/AnarchyNovelty.jpg" class="img-fluid"></p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -205,8 +219,7 @@ grid-auto-rows: minmax(0, 1fr);">
 </div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
-<img src="plots/AnarchyNovelty.jpg" class="img-fluid">
-<img src="plots/BlitzNovelty.jpg" class="img-fluid">
+<p>ACT ‘Blitzkrieg Bop’ <img src="plots/BlitzACT.jpg" class="img-fluid"> ACT ‘Anarchy in the U.K.’ <img src="plots/AnarchyACT.jpg" class="img-fluid"></p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
