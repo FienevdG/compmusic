@@ -117,7 +117,8 @@ In this DTW matrix, we see very little dark blue, showing little similarity betw
 
 Chromagram Blitzkrieg Bop ![](plots/BlitzChrom.jpg)
 
-**Chromagram Anarchy In the U.K.** ![](plots/AnarchyChroma.jpg)
+Chromagram Anarchy In the U.K.
+![](plots/AnarchyChroma.jpg)
 
 ## DTW
 
@@ -255,11 +256,11 @@ In the scatter plot, on the right, I tried visualizing the three most important 
 This shows me that non of the features provided by Spotify is enough to separate the American and British Punk playlists.
 
 ## importance afb
-
+Random Forest 
 ![](plots/PunkRandomForest.jpg)
 
 ## clustering afb
-
+Scatter plot 
 ![](plots/PunkCluster.jpg)
 
 # Conclusion
