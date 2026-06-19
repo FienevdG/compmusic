@@ -269,7 +269,6 @@ Loudnes in American and British Punk
 
 Valence in American and British Punk
 ![](plots/ValenceBoxpl.png)
-
 # Clustering
 ## uitleg
 
