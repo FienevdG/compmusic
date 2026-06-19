@@ -35,8 +35,67 @@ I'll zoom in on:
 
 # Corpus
 
-For this portfolio I decided to take a closer look into de differences between American and British Punk rock. 
+##
 
+WHAT IS PUNK?
+
+For this portfolio I decided to take a closer look into de differences between American and British Punk rock. 
+Punk rock as a genre is known for its music that returnes to the basics: it’s short, fast, loud and simple. 
+As some people might say; “anyone who could hold an instrument, could make punk”. 
+That idea of accessibility was a very big part of the punk movement. The movement as a whole was very DIY: start your own band, make your own clothes, do your own thing. Punk rebells against the commercialization of rock’n’roll. 
+
+Punk originates in New York City: The CBGB club became a hotspot for emerging punk bands. The Ramones are often called the first true punk rock band. A bit later punk also becomes a big thing in the U.K. with bands like Sex Pistols and The Clash. 
+
+Though American and Britsh punk definitely fall under the same genre, there are differences mentioned when talking about the two sub-genres. Some bigger than others. For instance, British punk is usually deemed more political and anti-establishment, more aggressive and noisy and faster than American Punk. American punk is thought to be more varied and to have a bit more developed styles. 
+
+My question for this portfolio is: Is there computational evidence for this difference or is the differnce more cultural than it is musical? 
+
+
+## Spotify Playlist
+
+![](plots/RAM.jpeg)
+
+
+![](plots/SP.jpeg)
+
+
+##
+
+CORPUS
+
+For this research project I used the playlists “70’s American Punk/NYC Punk Rock/CBGB” and “70’s/British Punk/UK Punk Rock” from Spotify.
+These playlists contain all the most influential bands and songs in the respective subgenres.
+
+<iframe
+  style="border-radius:12px"
+  src="https://open.spotify.com/embed/playlist/03PwoyMpiDWtMsHRN5d8V3?utm_source=generator&si=45f8bc40aefe436e"
+  width="100%"
+  height="200"
+  frameborder="0"
+  allowfullscreen
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy">
+</iframe>
+
+```{=html}
+<iframe
+  style="border-radius:12px"
+  src="https://open.spotify.com/embed/playlist/2nJlTpJ7CLloGVbeFtCPWy?utm_source=generator&si=20a86d0571664239"
+  width="100%"
+  height="200"
+  frameborder="0"
+  allowfullscreen
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy">
+</iframe>
+```
+
+However, some of my analysis were done by comparing two specific songs. For these analysis, used at Chroma features, Timbre and Temporal features, I chose to use to songs that represented the sub genres as good as possible. 
+
+For these analysis I used the songs: 
+
+- Blitzkrieg Bop, by the Ramones - for American punk 
+- Anarchy In the U.K., by the Sex Pistols - for British Punk
 
 # Chroma features
 
@@ -82,6 +141,7 @@ Chromagram Anarchy In the U.K.
 DTW Matrix comparing 'Blitzkrieg Bop' and 'Anarchy in the U.K.'
 ![](plots/DTW.jpg)
 
+
 # Timbre
 
 ##
@@ -92,7 +152,7 @@ Timbre is a complex quality to explain. It's the feature that makes the same two
 
 In this analysis timbre is represented by Mel-Frequency Cepstral Coefficients (MFCCs). This coefficient is computed by taking qualities like distortion and frequencies compressing this information into a number. 
 
-On this page I used MFCC Self Similarty Matrices. These matrices compare a song to itself, so every moment is compared to every moment in a song. High similartity will show up as bright, yellow blocks. Dissimilarity will show up as dark blue blocks. 
+On this page I used MFCC Self Similarty Matrices (SSMs). These matrices compare a song to itself, so every moment is compared to every moment in a song. High similartity will show up as bright, yellow blocks. Dissimilarity will show up as dark blue blocks. 
 SSMs can tell us a lot about timbre structure throughout a song.
 
 
@@ -100,6 +160,7 @@ SSM
 
 When looking at the SSMs we see that the songs have different timbre structures.
 Neither show very clear blocks that indicate a strict structure, and both SSMs are mainly bright yellow, indicating that both tracks are quite consistent in their timbre throughout the song.
+The bright yellow diagonal line trough both SSMs is the point where the tracks cross themselves and thus exactly overlap.
 
 Blitzkrieg Bop had a less regular pattern, with less visible blocks. This probably means the timbre changes more gradual, with less defined patterns. 
 
