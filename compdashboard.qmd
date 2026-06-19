@@ -1,6 +1,6 @@
 ---
-title: " "
-author: "Computational Musicology"
+title: "British vs. American Punk"
+author: ""
 format:
   dashboard:
     orientation: columns
@@ -12,9 +12,31 @@ format:
 editor: visual
 ---
 
-# voorpagina
+# Main page
 
-In this portofolio I'll present my research on the difference between British and American Punk music, mainly focused on music made in the 70's. 
+##
+
+THE DIFFERENCE BETWEEN AMERCAN AND BRITISH PUNK ROCK 
+
+By: Fiene van der Geest 
+
+In this portfolio I'll present my research on the difference between British and American Punk music. 
+I'll zoom in on: 
+
+- Track level features,
+- Chroma features,
+- Timbre,
+- Temporal features and
+- Clustering
+
+
+##
+![](plots/CBGB.jpeg)
+
+# Corpus
+
+For this portfolio I decided to take a closer look into de differences between American and British Punk rock. 
+
 
 # Chroma features
 
@@ -32,7 +54,7 @@ In the column on the left we see two Chromagrams. The X-axis shows us the time, 
 
 So, when looking at the chromagrams we see that in both cases a relatively small amount of pitch classes are dominantly present in the songs. This is not surprising, since punk songs usualy aren't very harmonically complex. 
 
-Blitzkrieg Bop looks a bit more uniform over time (relative clear and long horizontal lines), which suggest more repetition of the same harmonic material. 
+The chromagram for Blitzkrieg Bop looks a bit more uniform over time (relative clear and long horizontal lines), which suggest more repetition of the same harmonic material. 
 Anarchy in the U.K. shows a bit more variation (still clear horizontal lines, but they're a bit more interrupted) but also show's a repetitive harmonic structure.
 
 DYNAMIC TIME WARPING
@@ -70,23 +92,23 @@ Timbre is a complex quality to explain. It's the feature that makes the same two
 
 In this analysis timbre is represented by Mel-Frequency Cepstral Coefficients (MFCCs). This coefficient is computed by taking qualities like distortion and frequencies compressing this information into a number. 
 
+On this page I used MFCC Self Similarty Matrices. These matrices compare a song to itself, so every moment is compared to every moment in a song. High similartity will show up as bright, yellow blocks. Dissimilarity will show up as dark blue blocks. 
+SSMs can tell us a lot about timbre structure throughout a song.
 
-## MFCC afb
 
-Blitzkrieg Bop
-![](plots/BlitzMFCC.jpg)
 
-Anarchy In the U.K.
-![](plots/AnarchyMFCC.jpg)
+SSM
+When looking at the SSM for Blitzkrieg Bop we don't see any clear, yellow or blue blocks. 
 
 ##
 
 'Blitzkrieg Bop' SSM
-![](plots/B.MFCC.SSM.cosine.jpg)
+![](plots/SSMBlitz.png)
 
+##
 
 'Anarchy In the U.K.' SSM
-![](plots/A.MFCC.SSM.cosine.jpg)
+![](plots/SSMMFDCANARCH.png)
 
 
 
@@ -142,6 +164,8 @@ ACT 'Anarchy in the U.K.'
 
 ##
 
+TRACK LEVEL FEATURES 
+
 On this page, we'll take a closer look at the track level features and how American and British punk differ in this respect. 
 To do this comparison I used the features energy, loudness, valence and speechiness.
 
@@ -152,7 +176,6 @@ To do this comparison I used the features energy, loudness, valence and speechin
 When looking at the different plots we can see that both American and British punk have a high energy, but that American punk seems a bit more divided and thus shows a bit more variation in energy between songs. 
 
 The loudness distributions are very similar. American punk displays a somewhat wider spread. Overall, loudness does not seem to differ between the two datasets.
-
 
 Valence scores are also similar across both datasets. American punk seems to have a slightly higher median, indicating more positive or uplifting musical characteristics, but the substantial overlap suggests that this difference is relatively small.
 
@@ -181,7 +204,33 @@ Valence in American and British Punk
 
 # Clustering
 ## uitleg
-wat zien we?
+
+CLUSTERING 
+
+With clustering we try to group songs by their characteristics. If songs with similar features end up close together, these features tell us something about what distinguishes different groups, or in this case sub-genres.  
+
+RANDOM FOREST PLOT 
+
+The Random Forest Plot, onn the right, shows what features are of greatest importance in trying to distinguish British and American Punk. 
+That means that: 
+
+- Liveness (in howfar sounds a song like it's performed live), 
+- Instrumentalness (amount of vocals vs. instruments in a song) and
+- Loudness (the overall volume of a recording) and 
+
+contribute the most when trying to see the difference between the two sub-generes. 
+
+
+SCATTER PLOT 
+
+In the scatter plot, on the right, I tried visualizing the three most important variables. 
+the X- axis shows liveness, Y-axis shows loudness, dot size shows instrumentalness and the colour of the dots show British vs. American data.
+
+- With liveness, we see that the data points for both playlists are pretty much devided over the whole x-axis and that both sub-genres overlap almost completely.
+- With loudness too, the two sub-genres overlap substantially.
+- For Instrumentallness too, we can't see clearly separated clusters.
+
+This shows me that non of the features provided by Spotify is enough to separate the American and British Punk playlists. 
 
 ## importance afb
 ![](plots/PunkRandomForest.jpg)
