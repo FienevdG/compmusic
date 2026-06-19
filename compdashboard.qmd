@@ -96,9 +96,16 @@ On this page I used MFCC Self Similarty Matrices. These matrices compare a song 
 SSMs can tell us a lot about timbre structure throughout a song.
 
 
-
 SSM
-When looking at the SSM for Blitzkrieg Bop we don't see any clear, yellow or blue blocks. 
+
+When looking at the SSMs we see that the songs have different timbre structures.
+Neither show very clear blocks that indicate a strict structure, and both SSMs are mainly bright yellow, indicating that both tracks are quite consistent in their timbre throughout the song.
+
+Blitzkrieg Bop had a less regular pattern, with less visible blocks. This probably means the timbre changes more gradual, with less defined patterns. 
+
+Anarchy has a clear block pattern. You can see both horizontal and vertical lines in the matrix. This indicates repeating patterns with similar timbre.
+
+The American track appears to repeat similar sections more consistently, whereas the British track presents a slightly more varied timbre.
 
 ##
 
