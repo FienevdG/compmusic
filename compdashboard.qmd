@@ -44,7 +44,8 @@ Punk originates in New York City: The CBGB club became a hotspot for emerging pu
 
 Though American and Britsh punk definitely fall under the same genre, there are differences mentioned when talking about the two sub-genres. Some bigger than others. For instance, British punk is usually deemed more political and anti-establishment, more aggressive and noisy and faster than American Punk. American punk is thought to be more varied and to have a bit more developed styles.
 
-My question for this portfolio is: Is there computational evidence for this difference or is the differnce more cultural than it is musical?
+My question for this portfolio is: Is there computational evidence for the difference between British and American punk rock?
+
 
 ## Spotify Playlist
 
@@ -56,7 +57,9 @@ My question for this portfolio is: Is there computational evidence for this diff
 
 **CORPUS**
 
-For this research project I used the playlists “70’s American Punk/NYC Punk Rock/CBGB” and “70’s/British Punk/UK Punk Rock” from Spotify. These playlists contain all the most influential bands and songs in the respective subgenres.
+For this research project I used the playlists “70’s American Punk/NYC Punk Rock/CBGB” and “70’s/British Punk/UK Punk Rock” from Spotify. 
+
+This analysis assumes that the selected Spotify playlists are representative of British and American punk. While they do contain many influential bands, they are curated playlists rather than historical archives.
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/03PwoyMpiDWtMsHRN5d8V3?utm_source=generator&amp;si=45f8bc40aefe436e" width="100%" height="200" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
 
@@ -81,6 +84,8 @@ For these analysis I used the songs:
 
 - Blitzkrieg Bop, by the Ramones - for American punk
 - Anarchy In the U.K., by the Sex Pistols - for British Punk
+
+I chose to use two songs for this portfolio to keep the different parts of the analysis mageble, though it might infuence the validity of the research. 
 
 # Chroma features
 
@@ -259,4 +264,30 @@ This shows me that non of the features provided by Spotify is enough to separate
 
 # Conclusion
 
-What have you learned from this set of analyses? Who could these conclusions benefit, and how?
+## conclusions
+
+**CONCLUSION**
+
+Let's rewind: What conclusions can we draw form the previous pages?
+
+- Chroma features: Both songs are quite simple if we look at their harmonic structure and material. Both songs contain similar harmonic material, but do not have the same harmonic structure.
+
+- Timbre: Both tracks are quite similar in their general timbre. But again differ on their structure.
+
+- Temporal features: In the temporal analysis we saw that Blitzkrieg Bop has clearly divided sections, where the rhythm changes in between. Anarchy in the U.K. seems to stay more consistent and change gradually rhytm wise. Both sons show a consistent BPM.
+
+- track level features: When looking at track level features, like enery, loudness and valence, British and American punk are very similar. We see no significant differences between the two genres on these levels.
+
+- Clustering: The clustering showed that based on the most important characteristics, American and British punk are not distinguishable.
+
+If we combine these conclusions we can answer my reseach question for this portfolio: Is there computational evidence for the difference between British and American punk rock?
+
+No, there does not seem to be any computational evidence for a difference between British and American punk rock. Both when looking at the whole playlist and when looking at the specific tracks we used I cannot find any significant differences between the two sub-genres, that can not be attributed to the differences you'd expect between two different songs.
+
+These findings could suggest that the perceived difference between the two sub-genres is more cultural, historical or lyrical than it is musical. This is interesting because it shows that no every musical aspect can be captured by computational analysis of audio features.
+
+It is also important however, to note that these findings give a very narrow view of punk music. I used a relatively small sample of British and American punk. Besides, these findings are for a large part based on the comparison between two songs. This too is a too small sample to make strong assumptions.
+
+## reflection
+
+![](plots/hanen.jpeg)
