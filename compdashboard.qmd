@@ -51,6 +51,9 @@ My question for this portfolio is: Is there computational evidence for the diffe
 
 ![](plots/SP.jpeg)
 
+![](plots/RAMO.webp)
+
+
 ## 
 
 **CORPUS**
